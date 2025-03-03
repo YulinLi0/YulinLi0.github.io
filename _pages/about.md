@@ -2,12 +2,7 @@
 layout: About
 title: About
 permalink: /
-subtitle: >
-PhD Candidate, HKUST
-Robotics and Autonomous Systems
-
-
-
+subtitle: PhD Candidate, Robotics and Autonomous Systems, HKUST
 
 profile:
   align: right
