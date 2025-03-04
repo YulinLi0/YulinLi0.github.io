@@ -7,6 +7,7 @@ subtitle: Ph.D. Candidate, Robotics and Autonomous Systems, HKUST
 profile:
   align: right
   image: yulin.jpg
+  image_style: "width: 80%;"
   image_circular: false # crops the image to make it circular
   more_info:
 
