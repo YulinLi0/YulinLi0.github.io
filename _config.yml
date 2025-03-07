@@ -7,10 +7,8 @@ first_name: Yulin
 middle_name: 
 last_name: Li
 emails: yline@connect.ust.hk
-contact_note: >
-  Email: yline (AT) connect (DOT) ust (DOT) hk.
-  
-  Download my <a href="https://yulinli0.github.io/assets/pdf/CV_yulin.pdf">CV</a> 
+contact_note: > # # Download my <a href="https://yulinli0.github.io/assets/pdf/CV_yulin.pdf">CV</a> 
+  Email: yline (AT) connect (DOT) ust (DOT) hk. 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
