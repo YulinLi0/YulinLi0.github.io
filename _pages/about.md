@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Candidate, Robotics and Autonomous Systems, HKUST
+subtitle: Postdoctoral Fellow, NUS
 
 profile:
   align: right
