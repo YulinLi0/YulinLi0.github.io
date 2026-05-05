@@ -182,6 +182,16 @@
       {{ entry.note | strip }}
     </div>
 
+    <!-- Tags -->
+    {% if entry.tags %}
+      <div class="tags" style="margin-top: 4px; margin-bottom: 4px;">
+        {% assign tag_array = entry.tags | split: ',' %}
+        {% for tag in tag_array %}
+          <span class="badge tag-badge">{{ tag | strip }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+
     <!-- Links/Buttons -->
     <div class="links">
       {% if entry.award %}

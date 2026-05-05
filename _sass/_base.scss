@@ -787,6 +787,23 @@ footer.sticky-bottom {
         }
       }
 
+      .tags {
+        .tag-badge {
+          display: inline-block;
+          font-size: 0.72rem;
+          font-weight: 500;
+          padding: 0.18rem 0.55rem;
+          margin-right: 0.3rem;
+          margin-bottom: 0.25rem;
+          border-radius: 0.3rem;
+          background-color: transparent;
+          color: var(--global-text-color-light);
+          border: 1px solid var(--global-divider-color);
+          text-transform: lowercase;
+          letter-spacing: 0.02em;
+        }
+      }
+
       .links {
         a.btn {
           color: var(--global-text-color);
