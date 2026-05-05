@@ -6,9 +6,9 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Yulin
 middle_name: 
 last_name: Li
-emails: yline@connect.ust.hk
+emails: yline@nus.edu.sg
 contact_note: > # # Download my <a href="https://yulinli0.github.io/assets/pdf/CV_yulin.pdf">CV</a> 
-  Email: yline (AT) connect (DOT) ust (DOT) hk.
+  Email: yline (AT) nus (DOT) edu (DOT) sg.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -273,8 +273,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Li]
+  first_name: [Yulin, Y.]
 
   style: apa
   locale: en
@@ -328,13 +328,13 @@ filtered_bibtex_keywords:
     selected,
     slides,
     supp,
-    tags,
+    topics,
     video,
     website,
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3 # leave blank to always show all authors
+max_author_limit: # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.

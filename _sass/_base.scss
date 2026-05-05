@@ -773,6 +773,7 @@ footer.sticky-bottom {
         > em {
           border-bottom: 1px solid;
           font-style: normal;
+          font-weight: bold;
         }
 
         > span.more-authors {
@@ -787,8 +788,8 @@ footer.sticky-bottom {
         }
       }
 
-      .tags {
-        .tag-badge {
+      .topics {
+        .topic-badge {
           display: inline-block;
           font-size: 0.72rem;
           font-weight: 500;
