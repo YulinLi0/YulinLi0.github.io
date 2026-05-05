@@ -730,6 +730,9 @@ footer.sticky-bottom {
       margin-bottom: 1rem;
 
       .preview {
+        width: 100%;
+        height: auto;
+        max-width: 220px;
       }
 
       .abbr {
@@ -789,19 +792,23 @@ footer.sticky-bottom {
       }
 
       .topics {
+        margin-top: 0.4rem;
+        margin-bottom: 0.4rem;
+
         .topic-badge {
           display: inline-block;
           font-size: 0.72rem;
-          font-weight: 500;
-          padding: 0.18rem 0.55rem;
-          margin-right: 0.3rem;
-          margin-bottom: 0.25rem;
+          font-weight: 600;
+          padding: 0.22rem 0.6rem;
+          margin-right: 0.35rem;
+          margin-bottom: 0.3rem;
           border-radius: 0.3rem;
-          background-color: transparent;
-          color: var(--global-text-color-light);
-          border: 1px solid var(--global-divider-color);
+          background-color: var(--global-theme-color);
+          color: white !important;
+          border: none;
           text-transform: lowercase;
           letter-spacing: 0.02em;
+          line-height: 1.2;
         }
       }
 

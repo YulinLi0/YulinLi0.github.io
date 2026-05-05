@@ -31,8 +31,7 @@ I received my Ph.D. degree in **Robotics and Autonomous Systems** from the **Hon
 
 
 My research is driven by a long-term goal: **enabling robots to interact with the physical world in a more capable, reliable, and intelligent manner**. Over the past years, I have built up expertise in a wide range of techniques for **generating motion policies for mobile manipulators in complex task scenarios**, by **combining optimization-based planning with learning-based methods**, with an emphasis on making robot behaviors safe and adaptive while staying grounded in physical models and principled reasoning.
-
-In my current postdoctoral research, I am working on **physics-driven world models for robotic manipulation**.
+In my current postdoctoral research, I am working on **physics-driven world models** for robotic manipulation, combining differentiable high-fidelity physics simulators with learnable components to build models that are both physically consistent and end-to-end differentiable.
 
 During my Ph.D. studies, I collaborated with [Prof. Xindong Tang](https://www.math.hkbu.edu.hk/~xdtang/) on the theory and application of **Moment and Polynomial Optimization**. I also visited the [Computational Robotics Lab](https://computationalrobotics.seas.harvard.edu/) at **Harvard University**, where I worked with [Prof. Heng Yang](https://hankyang.seas.harvard.edu/) on high-performance numerical solvers for **Contact-Implicit Motion Planning**.
 
