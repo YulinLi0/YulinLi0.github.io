@@ -11,11 +11,8 @@ Distance Field},
   pdf={https://arxiv.org/pdf/2601.18548},
   website={https://yulinli0.github.io/GCDF/},
   selected={true},
-  topics={mobile manipulator, collision avoidance, neural distance field, trajectory optimization}
+  topics={mobile manipulator, collision avoidance, neural configuration space distance field}
 }
-
-
-
 
 @article{li2025surprising,
   title={On the Surprising Robustness of Sequential Convex Optimization for Contact-Implicit Motion Planning},
@@ -26,18 +23,39 @@ Distance Field},
   pdf={https://arxiv.org/pdf/2502.01055},
   website={https://computationalrobotics.seas.harvard.edu/CRISP/},
   selected={true},
-  topics={contact-rich manipulation, optimization}
+  topics={principle of contact reasoning, contact-rich manipulation, numerical optimization}
 }
 
-@article{li2025ralfreetree,
-  title={FRTree Planner: Robot Navigation in Cluttered and Unknown Environments with Tree of Free Regions}, 
-  author={Yulin Li and Zhicheng Song and Chunxin Zheng and Zhihai Bi and Kai Chen and Michael Yu Wang and Jun Ma},
-  year={2025},
-  journal={IEEE Robotics and Automation Letters (RA-L)},
-  preview={ral_planner.png},
-  pdf={https://arxiv.org/pdf/2410.20230},
+@article{bi2026alore,
+  title={ALORE: Autonomous Large-Object Rearrangement with a Legged Manipulator},
+  author={Zhihai Bi and Y. Zhang and Kai Chen and G. Zhao and Yulin Li and Jun Ma},
+  journal={arXiv preprint},
+  year={2026},
+  preview={alore.png},
+  pdf={https://arxiv.org/pdf/2602.04214},
   selected={true},
-  topics={navigation, collision avoidance}
+  topics={interactive navigation, contact-rich manipulation, loco-manipulation, legged manipulator}
+}
+
+@article{bi2025iros_legged,
+  title={Interactive Navigation for Legged Manipulators with Learned Arm-Pushing Controller},
+  author={Zhihai Bi and Kai Chen and Chunxin Zheng and Yulin Li and H. Li and Jun Ma},
+  journal={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), <b>Best Paper Finalist</b>},
+  year={2025},
+  preview={interative navigation.png},
+  selected={true},
+  topics={interactive navigation, contact-rich manipulation, loco-manipulation, legged manipulator}
+}
+
+@article{zheng2025bulky,
+  title={Embracing Bulky Objects with Humanoid Robots: Whole-Body Manipulation with Reinforcement Learning},
+  author={Chunxin Zheng and Kai Chen and Zhihai Bi and Yulin Li and L. Pan and Jinni Zhou and H. Li and Jun Ma},
+  journal={International Conference on Robotics & Automation (ICRA)},
+  year={2026},
+  preview={embracing.png},
+  pdf={https://arxiv.org/pdf/2509.13534},
+  selected={true},
+  topics={humanoid, contact-rich manipulation, loco-manipulation, reinforcement learning}
 }
 
 @article{li2024ralcontroller,
@@ -48,7 +66,7 @@ Distance Field},
   preview={ral_controller.png},
   pdf={https://arxiv.org/pdf/2310.05547},
   selected={true},
-  topics={navigation, reactive control, collision avoidance}
+  topics={reactive control, collision avoidance}
 }
 
 @article{li2024ralto,
@@ -74,34 +92,6 @@ Distance Field},
   topics={mobile manipulator, reactive control, collision avoidance}
 }
 
-@article{kai2025icra_dsm,
-  title={Robot Navigation in Unknown and Cluttered Workspace with Dynamical System Modulation in Starshaped Roadmap},
-  author={Kai Chen and Haichao Liu and Yulin Li and Jianghua Duan and Lei Zhu and Jun Ma},
-  year={2025},
-  journal={IEEE International Conference on Robotics and Automation (ICRA)},
-  preview={icra_dsm.png},
-  pdf={https://arxiv.org/pdf/2403.11484},
-  selected={true},
-  topics={navigation, dynamical system}
-}
-
-
-% =============================================================
-% Other publications (co-authored). First names with "F." need
-% verification - please fill in full names where applicable.
-% =============================================================
-
-@article{bi2026alore,
-  title={ALORE: Autonomous Large-Object Rearrangement with a Legged Manipulator},
-  author={Zhihai Bi and Y. Zhang and Kai Chen and G. Zhao and Yulin Li and Jun Ma},
-  journal={arXiv preprint},
-  year={2026},
-  preview={alore.png},
-  pdf={https://arxiv.org/pdf/2602.04214},
-  selected={true},
-  topics={loco-manipulation, legged manipulator}
-}
-
 @article{li2026polyhypersurfaces,
   title={Online Trajectory Optimization for Arbitrary-Shaped Mobile Robots via Polynomial Separating Hypersurfaces},
   author={S. Li and Zhicheng Song and Yulin Li and Zhihai Bi and Jun Ma},
@@ -110,19 +100,47 @@ Distance Field},
   preview={seperating hypersurface.png},
   pdf={https://arxiv.org/pdf/2601.09231},
   selected={true},
-  topics={mobile robot, collision avoidance, trajectory optimization}
+  topics={collision avoidance, trajectory optimization}
 }
 
-@article{zheng2025bulky,
-  title={Embracing Bulky Objects with Humanoid Robots: Whole-Body Manipulation with Reinforcement Learning},
-  author={Chunxin Zheng and Kai Chen and Zhihai Bi and Yulin Li and L. Pan and Jinni Zhou and H. Li and Jun Ma},
-  journal={International Conference on Robotics & Automation (ICRA)},
-  year={2026},
-  preview={embracing.png},
-  pdf={https://arxiv.org/pdf/2509.13534},
+@article{kai2025icra_dsm,
+  title={Robot Navigation in Unknown and Cluttered Workspace with Dynamical System Modulation in Starshaped Roadmap},
+  author={Kai Chen and Haichao Liu and Yulin Li and Jianghua Duan and Lei Zhu and Jun Ma},
+  year={2025},
+  journal={IEEE International Conference on Robotics and Automation (ICRA)},
+  preview={icra_dsm.png},
+  pdf={https://arxiv.org/pdf/2403.11484},
   selected={true},
-  topics={humanoid, loco-manipulation, reinforcement learning}
+  topics={navigation, collision avoidance, dynamical system modulation}
 }
+
+@article{li2025ralfreetree,
+  title={FRTree Planner: Robot Navigation in Cluttered and Unknown Environments with Tree of Free Regions}, 
+  author={Yulin Li and Zhicheng Song and Chunxin Zheng and Zhihai Bi and Kai Chen and Michael Yu Wang and Jun Ma},
+  year={2025},
+  journal={IEEE Robotics and Automation Letters (RA-L)},
+  preview={ral_planner.png},
+  pdf={https://arxiv.org/pdf/2410.20230},
+  selected={true},
+  topics={navigation, collision avoidance}
+}
+
+@article{song2026ral,
+  title={Safe Navigation in Unknown and Cluttered Environments via Direction-Aware Convex Free-Region Generation},
+  author={Zhicheng Song and Yongjian Li and Kai Chen and Yulin Li and Fan Shi and Jun Ma},
+  journal={arXiv preprint},
+  year={2026},
+  preview={frgraph.png},
+  pdf={https://arxiv.org/abs/2604.23648},
+  selected={true},
+  topics={navigation, collision avoidance}
+}
+
+
+% =============================================================
+% Other publications (co-authored). First names with "F." need
+% verification - please fill in full names where applicable.
+% =============================================================
 
 @article{chen2025samp,
   title={SAMP: Spatial Anchor-based Motion Policy for Collision-Aware Robotic Manipulators},
@@ -144,28 +162,4 @@ Distance Field},
   preview={g2-sdf.png},
   selected={true},
   topics={neural distance field, scene reconstruction}
-}
-
-@article{bi2025iros_legged,
-  title={Interactive Navigation for Legged Manipulators with Learned Arm-Pushing Controller},
-  author={Zhihai Bi and Kai Chen and Chunxin Zheng and Yulin Li and H. Li and Jun Ma},
-  journal={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) Best Paper Finalist},
-  year={2025},
-  preview={interative navigation.png},
-  selected={true},
-  topics={interactive navigation, loco-manipulation, legged manipulator}
-}
-
-Safe Navigation in Unknown and Cluttered Environments via Direction-Aware Convex Free-Region Generation
-
-
-@article{song2026ral,
-  title={Safe Navigation in Unknown and Cluttered Environments via Direction-Aware Convex Free-Region Generation},
-  author={Zhiyuan Song and Yulin Li and Chunxin Zheng and Zhihai Bi and Kai Chen and Jun Ma},
-  journal={arXiv preprint},
-  year={2026},
-  preview={frgraph.png},
-  pdf={https://arxiv.org/abs/2604.23648},
-  selected={true},
-  topics={navigation, collision avoidance}
 }
