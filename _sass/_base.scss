@@ -132,6 +132,21 @@ blockquote {
   }
 }
 
+.research-invitation {
+  clear: both;
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--global-divider-color);
+  border-left: 4px solid var(--global-theme-color);
+  border-radius: 8px;
+  background-color: var(--global-card-bg-color);
+  background-color: color-mix(in srgb, var(--global-theme-color) 6%, var(--global-bg-color));
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
 // Checklist
 
 ul.task-list {

@@ -6,16 +6,17 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Yulin
 middle_name: 
 last_name: Li
-emails: yline@nus.edu.sg
+emails: yline@connect.ust.hk
 contact_note: > # # Download my <a href="https://yulinli0.github.io/assets/pdf/CV_yulin.pdf">CV</a> 
-  Email: yline (AT) nus (DOT) edu (DOT) sg.
+  Email: yline (AT) connect (DOT) ust (DOT) hk.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Yulin Li researches robot motion planning, contact-rich manipulation,
+  and physics-driven world models.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: Yulin Li, robotics, motion planning, contact-rich manipulation, physics-driven world models, NUS
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: hkust_logo.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
